@@ -1,3 +1,5 @@
+import sys, os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import useful_things
 from hypothesis import given
 import hypothesis.strategies as st
